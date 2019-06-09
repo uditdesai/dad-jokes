@@ -1,0 +1,29 @@
+.JokeList {
+    display: flex;
+    width: 80%;
+    height: 80%;
+}
+
+.JokeList-sidebar {
+    background: #9575cd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.JokeList-title {
+    font-size: 4rem;
+    margin: 2rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+}
+
+.JokeList-jokes {
+    height: 90%;
+    align-self: center;
+    width: 70%;
+    overflow: scroll;
+}
